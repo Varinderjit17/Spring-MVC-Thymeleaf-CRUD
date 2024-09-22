@@ -38,6 +38,8 @@
             <td>
                 <a th:href="@{/employees/showFormForUpdate(employeeId=${tempEmployee.id})}"
                 class="btn btn-info">Update</a>
+                <a th:href="@{/employees/delete(employeeId=${tempEmployee.id})}"
+                   class="btn btn-danger">Delete</a>
             </td>
         </tr>
         </tbody>
